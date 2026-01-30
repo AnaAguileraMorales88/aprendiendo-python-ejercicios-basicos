@@ -102,3 +102,79 @@ galetes = 12
 amics = 4
 galetas_amics = galetes // amics
 print(galetas_amics)
+
+#Crear les variables: Juan, Maria, i Adán
+
+#Una vegada emmagatzemats els números en les variables, imprimir les variables en una línia, i separar cadascuna d'elles amb una coma;
+
+#Després s'ha de crear una nova variable anomenada total_pomes i s'ha d'igualar a la suma de les tres variables anteriors;
+
+
+"""Escenari
+A continuació una història:
+Érase una vegada en la Terra de les Pomes, Juan tenia tres pomes, María tenia cinc pomes, i Adán tenia sis pomes. Tots eren molt feliços i van viure per moltíssim temps. Fi de la Història.
+
+La teva tasca és:
+Crear les variables: Juan, Maria, i Adán;
+Assignar valors a les variables. El valor ha de ser igual al nombre de pomes que cada qui tenia;
+Una vegada emmagatzemats els números en les variables, imprimir les variables en una línia, i separar cadascuna d'elles amb una coma;
+Després s'ha de crear una nova variable anomenada total_apples i s'ha d'igualar a la suma de les tres variables anteriors;
+Imprimeix el valor emmagatzemat en total_apples en la consola;"""
+
+Juan =  3
+María = 5
+Adán = 6
+print(Juan, María, Adán, sep=", ")
+
+total_apples = Juan + María + Adán
+print("El total de les pomes es", total_apples)
+
+pomes = 100
+
+pomes += 50
+
+pomes -= 30
+
+pomes -= 10
+
+print(pomes)
+
+"""Escenari
+Milles i quilòmetres són unitats de longitud o distància.
+Tenint al cap que 1 milla equival aproximadament a 1.61 quilòmetres, complementa el programa en l'editor perquè converteixi de:
+Milles a quilòmetres;
+Quilòmetres a milles.
+No s'ha de canviar el codi existent. Escriu el teu codi en els llocs indicats amb ###. Prova el teu programa amb les dades que han estat proveïts en el codi font.
+Posa molta atenció al que aquesta ocorrent dins de la funció print(). Analitza com és que es proveeixen múltiples arguments per a la funció, i com és que es mostra el resultat.
+Nota que alguns dels arguments dins de la funció print() són cadenes (per exemple, "milles són", i altres són variables (per exemple, milers)."""
+
+milles = 10
+km = 5
+
+print("Mi nombre es", "Ana", end=" * ")
+print("Aguilera", end="...") #end coge la línea siguiente y te la pone en la misma línea, siempre se pone al final de cada print
+print("Morales")
+
+
+# Imaginem que volem crear una llista d'ingredients en una sola línia
+print("Els ingredients són: ", end="")
+# Farina
+print("Harina,", end=" ")
+# Sucre
+print("azucar,", end=" ")
+# Ous
+print("huevos,", end=" ")
+# Llet
+print("y leche")
+
+
+# Farem una truita de patates, passos per fer-la...
+print("Passos per fer una truita: ", end="")
+# 1. Trencar els ous ->
+print("1. Trencar els ous", end=" -> ")
+# 2. Barrejar amb sal ->
+print("2. Barrejar amb sal", end=" -> ")
+# 3. Escalfar la paella ->
+print("3. Escalfar la paella", end=" -> ")
+# 4. Coure la truita.
+print("4. Coure la truita.")
