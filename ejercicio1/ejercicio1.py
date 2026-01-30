@@ -68,16 +68,16 @@ var = "3.8.5"
 print("Python version: " + var + "\n" "otra linea")
 
 # Imagina que estem fent una recepta per a fer galetes.
-# Suposem que tens 2 galetes i el teu amic et dona 3 més. 
+# Suposem que tens 2 galetes i el teu amic et dona 3 més.
 # Llavors, quantes galetes tens en total?
-# Codi: 
+# Codi:
 
 galetes = 2
 galetes += 3
 print("Tinc", galetes, "galetes") # Para ahorrar código sería galetes 2 + 3 directamente
 
 
-# Imagina que tens 5 galetes i decideixes menjar-te 2. 
+# Imagina que tens 5 galetes i decideixes menjar-te 2.
 # Quantes galetes et queden?
 # Codi:
 
@@ -87,7 +87,7 @@ print(galetes)
 
 
 # Ara, imagina que vols fer 3 caixes de galetes, i en cada caixa poses 4 galetes. 
-# Quantes galetes tens en total? 
+# Quantes galetes tens en total?
 # Codi:
 
 caixes = 3
@@ -178,3 +178,49 @@ print("2. Barrejar amb sal", end=" -> ")
 print("3. Escalfar la paella", end=" -> ")
 # 4. Coure la truita.
 print("4. Coure la truita.")
+
+print("Mi", "nombre", "es", sep="_", end="*") #sep separa las palabras de la misma frase por lo que le pongas entre comillas
+print("nombre", "apellido", sep="-")
+
+"""Escenari
+Modifica la primera línia de codi en l'editor, usant les paraules claus reservades sep i end,, perquè s'obtingui la sortida esperada. Empra dos funcio print() en l'editor.
+No canviïs res en la segona invocació de print().
+Sortida Esperada"""
+#Programming****Essentials****in...Python
+
+print("Programmin","Essentials", "in", sep=" **** ", end=" ... ")
+print("Python")
+
+print("A\nN\nA") #\n salta a una nueva línea
+
+print("Dime lo que sea...")
+caixa = input()
+print("mmm...", caixa, "...¿en serio?")
+
+anything = input("Dime lo que sea...")
+print("mmmm...", anything, "...¿en serio?")
+
+nombre = input()
+print("¿Cual es tu nombre?", nombre, "Tu nombre", nombre, "es el mas bonito del mundo")
+
+
+# Demanem dos números enters a l'usuari
+usuario1 = int(input("Introduce un numero "))
+usuario2 = int(input("Introduce otro número "))
+# Calculem la suma
+resultat = usuario1 + usuario2
+# Mostrem el resultat
+print("La suma dels dos números és:", resultat)
+
+# Demanem el nom i l'edat de l'usuari
+nombre = input("Dime tu nombre ")
+edad = int(input("cual es tu edad "))
+
+# Calculem els "anys de gos" (1 any humà = 7 anys de gos)
+nom = nombre
+anys_de_gos = edad * 7
+
+# Mostrem el resultat
+print("Hola", nom + "! Tens", anys_de_gos, "anys en anys de gos!")
+
+
