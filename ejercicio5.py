@@ -13,3 +13,6 @@ print(a > 10)
 
 n = int(input())
 print(n >= 100)
+
+x = int(input())
+print(0 <= x <= 50)
