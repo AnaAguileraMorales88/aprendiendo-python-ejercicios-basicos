@@ -8,6 +8,9 @@ Sortida Esperada"""
 print("Programmin","Essentials", "in", sep=" **** ", end=" ... ")
 print("Python")
 
+for letra in word:
+    print(letra, end="*")
+
 print("A\nN\nA") #\n salta a una nueva línea
 
 print("Dime lo que sea...")
@@ -39,4 +42,6 @@ anys_de_gos = edad * 7
 
 # Mostrem el resultat
 print("Hola", nom + "! Tens", anys_de_gos, "anys en anys de gos!")
+
+word = "Python"
 
