@@ -8,6 +8,7 @@
 # Escribe tu código aquí.
 my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 unica_lista = []
+
 for numeros in my_list:
     if numeros not in unica_lista:
         unica_lista.append(numeros)
