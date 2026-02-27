@@ -30,17 +30,13 @@ productes = (
     ("pa", 1.50),
     ("formatge", 2.30)
 )
-
 total = 0
-for producte in productes:
-    nom = producte[0]
-    preu = producte[1]
+for producte, preu in productes:
+    quantitat = int(input("Quantes unitats de " + producte + " vols? "))
+    total += (quantitat * preu)
 
-    quantitat = int(input("Quantes unitats de " + nom + " vols? "))
+print("Total a pagar: ", total, "€.")
+    
 
-    subtotal = quantitat * preu
-    total = total + subtotal
-
-print("El total a pagar es: ", round(total ,2), "€")
 
 
